@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fog: #ececec;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--fog);
+  color: rgb(17 17 17 / 0.9);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-fog {
+  background: var(--fog);
+}
